@@ -42,7 +42,7 @@ var firebaseConfig = {
     // Hide alert after 3 seconds
     setTimeout(function(){
      document.querySelector('.alert').style.display = 'none';
-    },2000);
+    },7000);
     
     //window.open('bookingSuccess.html', '_blank');
   
