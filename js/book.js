@@ -26,13 +26,14 @@ var firebaseConfig = {
     var pickup = getInputVal('pickup');
     var drop = getInputVal('drop');
     var time = getInputVal('time');
+    var date = getInputVal('date');
     var ser = getInputVal('ser');
     var cars = getInputVal('cars');
   
   
     // Save message
     saveMessage(name, phone, pickup, drop, date, time, ser, cars);
-  
+   alert("Your message has been sent");
     // Show alert
     document.querySelector('.alert').style.display = 'block';
     
